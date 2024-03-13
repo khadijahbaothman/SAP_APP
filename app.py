@@ -60,7 +60,7 @@ def preprocess_data(file_path):
     return df_no_duplicates
 
 def main():
-    st.title('Excel Data Preprocessing App')
+    st.title('SAP App')
 
     # File uploader
     uploaded_file = st.file_uploader("Upload Excel file", type=["xls", "xlsx"])
